@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "production-card": "/components/common/ProductionCard"
+  }
+}

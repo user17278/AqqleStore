@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "use": "/components/my/setting/Use",
+    "privacy": "/components/my/setting/Privacy"
+  }
+}

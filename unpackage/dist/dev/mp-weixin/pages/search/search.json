@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nearly-shop-list": "/components/location/NearlyShopList",
+    "city-list": "/components/location/CityList"
+  }
+}

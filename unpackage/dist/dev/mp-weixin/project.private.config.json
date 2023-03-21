@@ -1,0 +1,98 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "Aqqle",
+  "setting": {
+    "compileHotReLoad": true,
+    "bigPackageSizeSupport": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/classify/classify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/location/location",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/my/my",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/detail/detail",
+          "query": "index=4",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "关于我们",
+          "pathName": "pages/detail/detail",
+          "query": "index=5",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/search/search",
+          "query": "name=CityList&text=%E6%90%9C%E7%B4%A2%E5%9F%8E%E5%B8%82",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/search/search",
+          "query": "name=CityList&text=%E6%90%9C%E7%B4%A2%E5%9F%8E%E5%B8%82",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/nearlyShop/nearlyShop",
+          "query": "item=%257B%2522id%2522%253A1%252C%2522title%2522%253A%2522Apple%25E6%258E%2588%25E6%259D%2583%25E4%25B8%2593%25E8%2590%25A5%25E5%25BA%2597-%25E7%2595%25AA%25E7%25A6%25BA%25E6%25B0%25B8%25E6%2597%25BA%25E5%25BA%2597%2522%252C%2522latitude%2522%253A22.937152%252C%2522longitude%2522%253A113.388276%252C%2522address%2522%253A%2522%25E5%25B9%25BF%25E4%25B8%259C%25E7%259C%2581%25E5%25B9%25BF%25E5%25B7%259E%25E5%25B8%2582%25E7%2595%25AA%25E7%25A6%25BA%25E5%258C%25BA%25E5%25A4%25A7%25E9%25BE%2599%25E8%25A1%2597%25E4%25BA%259A%25E8%25BF%2590%25E5%25A4%25A7%25E9%2581%25931%25E5%258F%25B7%25E6%25B0%25B8%25E6%2597%25BA%25E6%25A2%25A6%25E4%25B9%2590%25E5%259F%258E1018-2%25E5%258F%25B7%25E5%2595%2586%25E9%2593%25BA%2522%252C%2522distance%2522%253A%25220.42%2522%252C%2522iconPath%2522%253A%2522http%253A%252F%252Flocalhost%253A3000%252Fimages%252Flocation%252FlocationBlack.png%2522%252C%2522width%2522%253A%252260rpx%2522%252C%2522height%2522%253A%252260rpx%2522%252C%2522callout%2522%253A%257B%2522content%2522%253A%2522Apple%25E6%258E%2588%25E6%259D%2583%25E4%25B8%2593%25E8%2590%25A5%25E5%25BA%2597-%25E7%2595%25AA%25E7%25A6%25BA%25E6%25B0%25B8%25E6%2597%25BA%25E5%25BA%2597%2522%252C%2522color%2522%253A%2522white%2522%252C%2522fontSize%2522%253A%252226rpx%2522%252C%2522borderRadius%2522%253A%252212rpx%2522%252C%2522bgColor%2522%253A%2522black%2522%252C%2522padding%2522%253A%252210rpx%252010rpx%2522%257D%257D&img=http%3A%2F%2Flocalhost%3A3000%2Fimages%2Flocation%2FR577.png",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/single-shop-map/single-shop-map",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/product-detail/product-detail",
+          "query": "classify=%5Bobject%20Object%5D&id=undefined",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/classify-detail/classify-detail",
+          "query": "title=iPhone",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/product-detail/product-detail",
+          "query": "item=%257B%2522id%2522%253A1%252C%2522type%2522%253A%2522ipad%2522%252C%2522ename%2522%253A%2522ipad%2522%252C%2522date%2522%253A202210%252C%2522imgUrl%2522%253A%2522http%253A%252F%252Flocalhost%253A3000%252Fimages%252Fproduction-card%252Fipad%252Fipad-2022-hero-pink-wifi-select.png%2522%252C%2522name%2522%253A%2522iPad%2520(%25E7%25AC%25AC%25E5%258D%2581%25E4%25BB%25A3)%2522%252C%2522price%2522%253A%25223599%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

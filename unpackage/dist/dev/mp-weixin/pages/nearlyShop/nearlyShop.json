@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "recommend": "/components/index/Recommend",
+    "other-service": "/components/index/OtherService",
+    "discount": "/components/index/Discount"
+  }
+}

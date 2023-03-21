@@ -1,0 +1,11 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/my/AboutUs"],{151:function(n,t,e){"use strict";e.r(t);var r=e(152),u=e(154);for(var c in u)"default"!==c&&function(n){e.d(t,n,(function(){return u[n]}))}(c);e(156);var o,i=e(11),a=Object(i["default"])(u["default"],r["render"],r["staticRenderFns"],!1,null,"17210903",null,!1,r["components"],o);a.options.__file="components/my/AboutUs.vue",t["default"]=a.exports},152:function(n,t,e){"use strict";e.r(t);var r=e(153);e.d(t,"render",(function(){return r["render"]})),e.d(t,"staticRenderFns",(function(){return r["staticRenderFns"]})),e.d(t,"recyclableRender",(function(){return r["recyclableRender"]})),e.d(t,"components",(function(){return r["components"]}))},153:function(n,t,e){"use strict";var r;e.r(t),e.d(t,"render",(function(){return u})),e.d(t,"staticRenderFns",(function(){return o})),e.d(t,"recyclableRender",(function(){return c})),e.d(t,"components",(function(){return r}));var u=function(){var n=this,t=n.$createElement;n._self._c},c=!1,o=[];u._withStripped=!0},154:function(n,t,e){"use strict";e.r(t);var r=e(155),u=e.n(r);for(var c in r)"default"!==c&&function(n){e.d(t,n,(function(){return r[n]}))}(c);t["default"]=u.a},155:function(n,t,e){"use strict";(function(n){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var e={data:function(){return{imgUrl:""}},mounted:function(){var n=this;this.$http.request({url:"/my-list/data"}).then((function(t){n.imgUrl=t.data.aboutus.imgUrl}))},methods:{backTo:function(){n.navigateBack()}}};t.default=e}).call(this,e(1)["default"])},156:function(n,t,e){"use strict";e.r(t);var r=e(157),u=e.n(r);for(var c in r)"default"!==c&&function(n){e.d(t,n,(function(){return r[n]}))}(c);t["default"]=u.a},157:function(n,t,e){}}]);
+//# sourceMappingURL=../../../.sourcemap/mp-weixin/components/my/AboutUs.js.map
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/my/AboutUs-create-component',
+    {
+        'components/my/AboutUs-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('1')['createComponent'](__webpack_require__(151))
+        })
+    },
+    [['components/my/AboutUs-create-component']]
+]);

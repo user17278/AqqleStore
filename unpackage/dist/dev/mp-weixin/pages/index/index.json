@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "Aqqle 授权专营店",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "index-swiper": "/components/index/IndexSwiper",
+    "recommend": "/components/index/Recommend",
+    "other-service": "/components/index/OtherService",
+    "discount": "/components/index/Discount",
+    "activity": "/components/index/Activity"
+  }
+}

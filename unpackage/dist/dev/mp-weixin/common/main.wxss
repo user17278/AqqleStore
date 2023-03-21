@@ -1,0 +1,133 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+@font-face {
+	font-family: 'iconfont';
+	src: url('//at.alicdn.com/t/c/font_3747091_7pqcswec1oh.woff2?t=1670929186985') format('woff2'),
+		url('//at.alicdn.com/t/c/font_3747091_7pqcswec1oh.woff?t=1670929186985') format('woff'),
+		url('//at.alicdn.com/t/c/font_3747091_7pqcswec1oh.ttf?t=1670929186985') format('truetype');
+}
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-wxbdingwei:before {
+	content: "\e624";
+}
+.icon-AppleWatchSeries:before {
+	content: "\e733";
+}
+.icon-iPhoneX:before {
+	content: "\e736";
+}
+.icon-MacBookPro:before {
+	content: "\e739";
+}
+.icon-xiangxiazhanhang:before {
+	content: "\ec0b";
+}
+.icon-apple-fill:before {
+	content: "\e881";
+}
+.icon-apple-fill {
+	color: white;
+	font-size: 50rpx;
+}
+.icon-fenlei:before {
+	content: "\e65e";
+}
+.icon-Magnifier:before {
+	content: "\e62d";
+}
+.icon-Magnifier {
+	color: white;
+	font-size: 38rpx;
+}
+.icon-shouye:before {
+	content: "\e603";
+}
+.icon-wode:before {
+	content: "\e651";
+}
+.icon-shouye1:before {
+	content: "\e602";
+}
+/* 全局颜色 */
+page {
+	background-color: #f5f5f7;
+}
+::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+image {
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor;
+}
+/* 背景颜色 */
+.bg-color {
+	background-color: #f5f5f7
+}
+/* 默认字体颜色 */
+.font-color {
+	color: #000000
+}
+/* 选中字体颜色 */
+.font-active-color {
+	color: #0066cc
+}
+/* 状态栏 */
+.status_bar {
+	height: 25px;
+	width: 100%;
+	background-color: black;
+}
+/* 自定义导航栏 */
+.wx-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	box-sizing: border-box;
+	padding: 20rpx 10rpx;
+	width: 100vw;
+	height: 118rpx;
+	background-color: black;
+}
+.wx-nav-title {
+	text-align: center;
+	color: #ffffff;
+	width: 320rpx;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.flex-item {
+	flex: 1;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	z-index: 2;
+	top: 0;
+}
+

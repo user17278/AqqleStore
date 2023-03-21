@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'iconfont';
+	src: url('//at.alicdn.com/t/c/font_3747091_7pqcswec1oh.woff2?t=1670929186985') format('woff2'),
+		url('//at.alicdn.com/t/c/font_3747091_7pqcswec1oh.woff?t=1670929186985') format('woff'),
+		url('//at.alicdn.com/t/c/font_3747091_7pqcswec1oh.ttf?t=1670929186985') format('truetype');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wxbdingwei:before {
+	content: "\e624";
+}
+
+.icon-AppleWatchSeries:before {
+	content: "\e733";
+}
+
+.icon-iPhoneX:before {
+	content: "\e736";
+}
+
+.icon-MacBookPro:before {
+	content: "\e739";
+}
+
+.icon-xiangxiazhanhang:before {
+	content: "\ec0b";
+}
+
+.icon-apple-fill:before {
+	content: "\e881";
+}
+
+.icon-apple-fill {
+	color: white;
+	font-size: 50rpx;
+}
+
+.icon-fenlei:before {
+	content: "\e65e";
+}
+
+.icon-Magnifier:before {
+	content: "\e62d";
+}
+
+.icon-Magnifier {
+	color: white;
+	font-size: 38rpx;
+}
+
+.icon-shouye:before {
+	content: "\e603";
+}
+
+.icon-wode:before {
+	content: "\e651";
+}
+
+.icon-shouye1:before {
+	content: "\e602";
+}

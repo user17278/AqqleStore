@@ -1,0 +1,126 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Aqqle 授权专营店",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "产品分类",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/location/location",
+			"style": {
+				"navigationBarTitleText": "你身边的门店",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/nearlyShop/nearlyShop",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/stop/stop",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/single-shop-map/single-shop-map",
+			"style": {
+				"navigationBarTitleText": "位置信息",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/product-detail/product-detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/classify-detail/classify-detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "aqqle",
+		"navigationBarBackgroundColor": "#000000"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#1d7fd9",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "white",
+		"iconWidth": "22px",
+		"fontSize": "10px",
+		"spacing": "5px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/indexActive .png"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"text": "产品分类",
+				"iconPath": "static/tabbar/classify.png",
+				"selectedIconPath": "static/tabbar/classifyActive.png"
+
+			},
+			{
+				"pagePath": "pages/location/location",
+				"text": "探索门店",
+				"iconPath": "static/tabbar/localtion.png",
+				"selectedIconPath": "static/tabbar/locationActive.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/myActive.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

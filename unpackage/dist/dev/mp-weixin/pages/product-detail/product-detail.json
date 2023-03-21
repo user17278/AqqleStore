@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "buy-page-choose": "/components/product-detail/BuyPageChoose",
+    "nearly-shop-list": "/components/location/NearlyShopList"
+  }
+}

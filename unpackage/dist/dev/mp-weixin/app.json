@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/location/location",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/nearlyShop/nearlyShop",
+    "pages/stop/stop",
+    "pages/single-shop-map/single-shop-map",
+    "pages/product-detail/product-detail",
+    "pages/classify-detail/classify-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "aqqle",
+    "navigationBarBackgroundColor": "#000000"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1d7fd9",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "iconWidth": "22px",
+    "fontSize": "10px",
+    "spacing": "5px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/indexActive .png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "产品分类",
+        "iconPath": "static/tabbar/classify.png",
+        "selectedIconPath": "static/tabbar/classifyActive.png"
+      },
+      {
+        "pagePath": "pages/location/location",
+        "text": "探索门店",
+        "iconPath": "static/tabbar/localtion.png",
+        "selectedIconPath": "static/tabbar/locationActive.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/myActive.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取定位"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

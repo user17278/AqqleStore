@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "about-us": "/components/my/AboutUs",
+    "setting": "/components/my/Setting",
+    "use": "/components/my/setting/Use",
+    "privacy": "/components/my/setting/Privacy"
+  }
+}

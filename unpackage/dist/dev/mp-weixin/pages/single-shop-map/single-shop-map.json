@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "位置信息",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {}
+}

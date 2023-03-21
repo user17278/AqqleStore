@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.activity.data-v-df0ef872 {
+  padding: 60rpx 30rpx;
+}
+.activity .activity-title.data-v-df0ef872 {
+  padding-bottom: 30rpx;
+}
+.activity .activity-card.data-v-df0ef872 {
+  display: flex;
+  flex-direction: column;
+}
+.activity .activity-card .activity-card-item.data-v-df0ef872 {
+  display: flex;
+  margin-bottom: 20rpx;
+  height: 230rpx;
+  border-radius: 30rpx;
+  background-color: white;
+  overflow: hidden;
+}
+.activity .activity-card .activity-card-item .activity-card-item-img.data-v-df0ef872 {
+  flex: 1;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.activity .activity-card .activity-card-item .activity-card-item-content.data-v-df0ef872 {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+.activity .activity-card .activity-card-item .activity-card-item-content .header-img.data-v-df0ef872 {
+  position: absolute;
+  z-index: 0;
+  height: 160%;
+  right: -100rpx;
+}
+.activity .activity-card .activity-card-item .activity-card-item-content .header.data-v-df0ef872 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 100%;
+  color: white;
+}
+.activity .activity-card .activity-card-item .activity-card-item-content .header .header-title.data-v-df0ef872 {
+  height: 80rpx;
+}
+.activity .activity-card .activity-card-item .activity-card-item-content .header .header-detail.data-v-df0ef872 {
+  font-size: 40rpx;
+  font-weight: 900;
+}
+.activity .activity-card .activity-card-item .activity-card-item-content .header .header-more.data-v-df0ef872 {
+  margin-top: 6rpx;
+  font-size: 20rpx;
+  color: #499cea;
+}
+.activity .activity-card .activity-card-item .activity-card-item-content .title.data-v-df0ef872 {
+  font-size: 28rpx;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.activity .activity-card .activity-card-item .activity-card-item-content .detail.data-v-df0ef872 {
+  margin-top: 16rpx 0;
+  font-size: 22rpx;
+  font-weight: 900;
+}
+.activity .activity-card .activity-card-item .activity-card-item-content .more.data-v-df0ef872 {
+  margin-top: 38rpx;
+  color: #037bff;
+  font-size: 20rpx;
+}
+
